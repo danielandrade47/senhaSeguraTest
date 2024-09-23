@@ -1,0 +1,27 @@
+# Diretório node_modules que contém pacotes instalados
+node_modules/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de cache do Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Arquivo de configurações do Cypress gerado automaticamente
+cypress.json
+
+# Configurações locais do VSCode
+.vscode/
+
+# Dependências locais e caches do Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivo de lock do npm (caso queira evitá-lo no repositório)
+package-lock.json
